@@ -41,6 +41,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'szw/vim-maximizer'
 Plugin 'rking/ag.vim'
+Plugin 'groenewege/vim-less'
 
 call vundle#end()
 filetype plugin indent on
