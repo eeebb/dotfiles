@@ -47,7 +47,7 @@ filetype plugin indent on
 
 " plugins settings
 set t_Co=256
-color bvemu
+color billw
 let g:airline_powerline_fonts = 1
 let g:airline_theme='ubaryd'
 set timeoutlen=50
