@@ -1,0 +1,37 @@
+[global_config]
+  window_state = fullscreen
+  handle_size = 1
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = mouse
+  scroll_tabbar = True
+  always_on_top = True
+  borderless = True
+  title_receive_bg_color = "#3f484e"
+  title_transmit_bg_color = "#6a6a6a"
+  tab_position = hidden
+  inactive_color_offset = 0.7
+[keybindings]
+  close_term = <Primary>Escape
+  hide_window = grave
+  close_window = None
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_image = None
+    background_darkness = 0.87
+    scrollback_lines = 2000
+    use_system_font = False
+    show_titlebar = False
+    font = DejaVu Sans Mono for Powerline 7
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
