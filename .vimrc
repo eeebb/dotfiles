@@ -1,10 +1,10 @@
 " preferences
 syntax on
-set shiftwidth=4
+set shiftwidth=2
 set autoindent
 set expandtab
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 set splitright
 set splitbelow
 set backspace=2
@@ -18,6 +18,7 @@ set laststatus=2
 set mouse=n
 set mousefocus
 set nu
+set nobackup
 
 " keymapping
 nnoremap <silent><C-J> <C-W><C-J>
@@ -42,14 +43,16 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'szw/vim-maximizer'
 Plugin 'rking/ag.vim'
 Plugin 'groenewege/vim-less'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tmhedberg/matchit'
 
 call vundle#end()
 filetype plugin indent on
 
 " plugins settings
 set t_Co=256
-color billw
-let g:airline_powerline_fonts = 1
-let g:airline_theme='ubaryd'
+set term=xterm-256color
+color af
+" let g:airline_powerline_fonts = 1
+" let g:airline_theme='ubaryd'
 set timeoutlen=50
-
