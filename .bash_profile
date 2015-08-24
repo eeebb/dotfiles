@@ -80,6 +80,7 @@ alias npm="cmd /c npm.cmd"
 
 # composer alias
 alias composer="php /usr/bin/composer.phar"
+alias deploy=./deploy.sh
 
 # Path Length Checker
 PATHLENGTHCHECKER="$HOME/../Apps/PathLengthChecker"
