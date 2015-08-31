@@ -6,7 +6,7 @@
   scroll_tabbar = True
   always_on_top = True
   borderless = True
-  title_receive_bg_color = "#3f484e"
+  title_receive_bg_color = "#3f484f"
   title_transmit_bg_color = "#6a6a6a"
   tab_position = hidden
   inactive_color_offset = 0.7
