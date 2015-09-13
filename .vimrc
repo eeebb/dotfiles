@@ -52,7 +52,8 @@ filetype plugin indent on
 " plugins settings
 set t_Co=256
 set term=xterm-256color
-color af
+" color af
+color koehler
 " let g:airline_powerline_fonts = 1
 " let g:airline_theme='ubaryd'
 set timeoutlen=50
