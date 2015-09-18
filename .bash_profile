@@ -78,6 +78,12 @@ export PATH="$NODE:$PATH"
 # Run npm using cmd instead of bash
 alias npm="cmd /c npm.cmd"
 
+# Set Inkscape path
+INKSCAPE="$HOME/../Apps/InkscapePortable/App/Inkscape"
+INKSCAPE="$(cd "$INKSCAPE" ; pwd)"
+export PATH="$INKSCAPE:$PATH"
+alias svgex=svg-objects-export.py
+
 # composer alias
 alias composer="php /usr/bin/composer.phar"
 alias deploy=./deploy.sh
